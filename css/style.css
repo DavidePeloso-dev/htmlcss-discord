@@ -5,15 +5,24 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-
+:root{
+    --primary-color: #3161E0;
+    --primary-button: white;
+    --secondary-button: #23272A;
+    --text-color: #23272A;
+    --section-bg: #F6F6F6;
+    --thertiary-button: #7289DA;
+    --title-text: #7289DA; 
+}
 
 /* --------------------
     debug_section
 -------------------- */
 /* header_debug */
-.debug #header{
+/* .debug #header{
     background-color: lightblue;
 }
 
@@ -26,10 +35,10 @@
     background-color: orange;
     height: 1rem;
     border: 2px black dashed;
-}
+} */
 
 /* hero_section_debug */
-.debug .hero_section{
+/* .debug .hero_section{
     background-color: aquamarine;
 }
 
@@ -45,10 +54,10 @@
     width: 500px;
     height: 350px;
 
-}
+} */
 
 /* invite_section , fandom_section */
-.debug .invite_section, .debug .fandom_section{
+/* .debug .invite_section, .debug .fandom_section{
     background-color: #ededed;
 }
 
@@ -73,10 +82,10 @@
     height: 70%;
     border: 2px black dashed;
     background-color: orangered;
-}
+} */
 
 /* where_section */
-.debug .where_section{
+/* .debug .where_section{
     background-color: rgb(182, 202, 220);
 }
 
@@ -84,10 +93,10 @@
     border: 3px black double;
     background-color: antiquewhite;
     height: 60vh;
-}
+} */
 
 /* tech_section */
-.debug .tech_section{
+/* .debug .tech_section{
     background-color: rgb(182, 202, 220);
 }
 
@@ -95,10 +104,10 @@
     border: 3px black double;
     background-color: antiquewhite;
     height: 80vh;
-}
+} */
 
 /* footer */
-.debug #footer{
+/* .debug #footer{
     background-color: gray;
     height: 45vh;
 }
@@ -144,7 +153,7 @@
     align-items: center;
     height: calc(5vh - 6px);
     
-}
+} */
 /* --------------------
    /debug_section
 -------------------- */
@@ -215,24 +224,42 @@
      general_css
 -------------------- */
 /* header */
-#header, .container, header .row{
-    height: 3rem;
-
-}
 .container{
     width: 80%;
     margin: auto;
 }
 
-header .row{
+#header{
+    background-color: var(--primary-color);
+
+}
+#header .row{
+    height: 4rem;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    
 }
+
+.logo{
+    align-items: center;
+}
+
 ul.d-flex{
     gap: 2rem;
     justify-content: center;
+    align-items: center;
+}
+
+li>a{
+    color: var(--primary-button)
+}
+
+.button{
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: var(--primary-button);
+    border-color: var(--primary-button);
+    border-style: solid;
 }
 
 /* hero_section */
