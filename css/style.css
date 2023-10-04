@@ -306,14 +306,18 @@ p{
     border-color: var(--secondary-button);
 }
 
-/* invite_section */
-.invite_section .row{
+/* general_rule_section */
+section{
+    color: var(--text-color);
+}
+
+section .row{
     align-items: center;
     justify-content: center;
     margin-top: 4rem;
 }
 
-.invite_section img{
+section img{
     width: 100%;
 }
 
@@ -324,6 +328,22 @@ section .content{
 .title-2{
     font-size: 2rem;
 
+}
+
+.wave{
+    height: 5rem;
+    background-color: var(--primary-button);
+    width: 100%;
+}
+
+.w_bottom{
+    transform: rotate(180deg);
+    height: 5.5rem;
+}
+
+/* where_section */
+.where_section{
+    background-color: var(--section-bg);
 }
 /* --------------------
      /general_css
