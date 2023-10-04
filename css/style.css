@@ -340,10 +340,39 @@ section .content{
     height: 5.5rem;
 }
 
-/* where_section */
-.where_section{
+.fandom_section{
+    margin-bottom: 4rem;
+}
+
+/* where_section, tech_section */
+.where_section, .tech_section{
     background-color: var(--section-bg);
 }
+
+.tech_section .content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech_section h3{
+    background-image: url(../img/stars.svg);
+    height: 4rem;
+    width: max-content;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5rem 2.5rem 0;
+}
+
+.tech_section .button{
+    background-color: var(--thertiary-button);
+    border-color: var(--thertiary-button);
+    color: var(--secondary-text);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 /* --------------------
      /general_css
 -------------------- */
