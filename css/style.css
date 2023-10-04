@@ -284,7 +284,7 @@ li>a{
     font-size: 2.5rem;
 }
 
-.hero_section p{
+p{
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 1.5rem;
@@ -304,6 +304,26 @@ li>a{
     color: var(--secondary-text);
     background-color: var(--secondary-button);
     border-color: var(--secondary-button);
+}
+
+/* invite_section */
+.invite_section .row{
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.invite_section img{
+    width: 100%;
+}
+
+section .content{
+    padding-left: 4rem;
+}
+
+.title-2{
+    font-size: 2rem;
+
 }
 /* --------------------
      /general_css
