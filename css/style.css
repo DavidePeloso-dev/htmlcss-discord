@@ -410,6 +410,7 @@ section .content{
 
 .icons img{
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .info ul{
