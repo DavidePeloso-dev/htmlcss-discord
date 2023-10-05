@@ -340,6 +340,7 @@ section .content{
     height: 5.5rem;
 }
 
+/* fandom_section */
 .fandom_section{
     margin-bottom: 4rem;
 }
@@ -363,6 +364,7 @@ section .content{
     background-size: contain;
     background-repeat: no-repeat;
     padding: 1.5rem 2.5rem 0;
+    font-size: 1.5rem;
 }
 
 .tech_section .button{
@@ -370,9 +372,67 @@ section .content{
     border-color: var(--thertiary-button);
     color: var(--secondary-text);
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
+/* footer */
+#footer{
+    background-color: var(--secondary-button);
+    color: var(--secondary-text);
+    padding: 1rem;
+}
+
+.footer_top .row{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--title-text);
+}
+
+.links h3{
+    color: var(--title-text);
+    font-size: 1.5rem;
+}
+
+.links span{
+    margin-top: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.flag{
+    vertical-align: middle;
+}
+
+.links img{
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+.icons img{
+    margin-right: 1rem;
+}
+
+.info ul{
+    color: var(--title-text);
+    font-weight: bold;
+}
+
+.info li{
+    color: var(--secondary-text);
+    margin-top: 1rem;
+    font-weight: normal;
+}
+
+.footer_bottom .row{
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.footer_bottom .button{
+    background-color: var(--thertiary-button);
+    border-color: var(--thertiary-button);
+    color: var(--secondary-text);
+}
 /* --------------------
      /general_css
 -------------------- */
