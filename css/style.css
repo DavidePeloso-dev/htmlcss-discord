@@ -244,6 +244,24 @@
 .logo{
     align-items: center;
     cursor: pointer;
+    
+}
+
+.logo>img{
+    animation-name: dissolvenza;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes dissolvenza {
+    0%{
+        filter: opacity(0%);
+    } 
+
+    
+
+    100%{
+        filter: opacity(100%);
+    }
 }
 
 ul.d-flex{
@@ -253,7 +271,13 @@ ul.d-flex{
 }
 
 li>a{
-    color: var(--secondary-text)
+    color: var(--secondary-text);
+    transition: all 0.5s;
+
+
+    &:hover{
+        border-bottom: 2px solid;
+    }
 }
 
 .button{
@@ -263,6 +287,12 @@ li>a{
     border-color: var(--primary-button);
     border-style: solid;
     cursor: pointer;
+    transition: all 2s;
+
+    &:hover{
+    box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.421);
+
+    }
 }
 
 /* hero_section */
@@ -319,6 +349,12 @@ section .row{
 
 section img{
     width: 100%;
+    filter: blur(1.2px);
+    transition: all 3s;
+
+    &:hover{
+        filter: blur();
+    }
 }
 
 section .content{
